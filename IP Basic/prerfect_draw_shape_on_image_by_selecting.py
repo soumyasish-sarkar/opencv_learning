@@ -39,7 +39,7 @@ def draw(event,x,y,flags,param):
 cv2.namedWindow(winname="window")
 
 
-img_ip = cv2.imread(r"C:\Users\soumyasish-sarkar\PycharmProjects\opencv_learning\image\walking.jpg")
+img_ip = cv2.imread(r"C:\Users\soumyasish-sarkar\PycharmProjects\opencv_learning\image\fighter_plane.jpg")
 img = cv2.resize(img_ip,(640,480))  # for making to required resolution
 img_copy=img.copy()
 img_stored=img.copy()
