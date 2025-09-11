@@ -10,6 +10,7 @@ cv2.imshow("image",img)
 #canny=cv2.Canny(img,50,150)
 #cv2.imshow("Canny ED - without Gaussian Blur",canny)
 
+
 img_g = cv2.GaussianBlur(img, (5,5), 0)
 canny_g=cv2.Canny(img_g,50,150)
 cv2.imshow("Canny ED - with Gaussian Blur",canny_g)
